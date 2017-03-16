@@ -1,0 +1,81 @@
+#leftpane {
+  float: left;
+  width: 160px;
+}
+
+#leftpane ul {
+  list-style-type: none;
+}
+
+#leftpane img {
+  width: 160px;
+}
+
+#mainpane {
+  width: 75%;
+  display: inline-block;
+}
+
+#navleft {
+  width: 40%
+}
+
+#navright {
+  width: 40%
+}
+
+#searchbar {
+  width: 20%;
+}
+
+#welcome-text {
+  text-align: center;
+}
+
+#welcome-text p {
+  font-size: 10px;
+}
+.row {
+  width: 90%;
+}
+h3 {
+  border: 1px solid;
+}
+/*search bar*/
+#custom-search-form {
+    margin:0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#custom-search-form .search-query {
+    padding-right: 3px;
+    padding-right: 4px;
+    padding-left: 3px;
+    padding-left: 4px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-form button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}

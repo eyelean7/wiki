@@ -104,17 +104,18 @@
     </div>
 
     <!-- login bar -->
+<!-- rest of page -->
 
     <!-- nav bar -->
-    <div class="container">
+    <div class="container" id="mainpane">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5" id="navleft">
           <ul class="nav nav-tabs">
             <li role="presentation" class="active"><a href="#">Main Page</a></li>
             <li role="presentation"><a href="#">Talk</a></li>
           <ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5" id="navright">
           <ul class="nav nav-tabs">
             <li role="presentation" class="active"><a href="#">Read</a></li>
             <li role="presentation"><a href="#">View Source</a></li>
@@ -135,44 +136,60 @@
           </div>
         </div>
       </div>
-    </div>
+
 
     <!-- main content -->
-    <div class="container well" id="mainpane">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Welcome to Wikipedia,</h2>
-        </div>
-        <div class="col-md-2">
-          <ul>
-            <li>Arts</li>
-            <li>Biography</li>
-            <li>Geography</li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <ul>
-            <li>History</li>
-            <li>Mathematics</li>
-            <li>Science</li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <ul>
-            <li>Society</li>
-            <li>Technology</li>
-            <li>All portals</li>
-          </ul>
+      <div class="well">
+        <div class="row">
+          <div class="col-md-6" id="welcome-text">
+            <h2>Welcome to Wikipedia,</h2>
+            <p>
+              the free encyclopedia that anyone can edit.
+              5,359,558 articles in English
+            </p>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li>Arts</li>
+              <li>Biography</li>
+              <li>Geography</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li>History</li>
+              <li>Mathematics</li>
+              <li>Science</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li>Society</li>
+              <li>Technology</li>
+              <li>All portals</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-
       <div class="row">
-        <div class="col-md-6">
-
+        <div class="col-md-6 bg-success" id="green">
+          <h3>From today's featured article</h3>
+          <img src="img/img1.jpg" alt="the first image" />
+          <p>
+            Powderfinger, an Australian rock band, formed in Brisbane in 1989. From 1992 to 2010 the lineup consisted of vocalist Bernard Fanning, guitarists Darren Middleton and Ian Haug, bass guitarist John Collins and drummer Jon Coghill. The group's third studio album, Internationalist, peaked at No. 1 on the ARIA Albums Chart in September 1998. Their next studio album, Odyssey Number Five, reached number one in September 2000 and was certified eight times platinum, shipping over 560,000 units. Their next three studio albums also reached number one: Vulture Street (July 2003), Dream Days at the Hotel Existence (June 2007) and Golden Rule (November 2009). Powderfinger earned the third-highest total of ARIA Awards (18), after Silverchair and John Farnham. Their last tour, the Sunsets Farewell Tour, concluded on 13 November 2010. In November the following year, the band published a biography with Dino Scatena, a rock music journalist, called Footprints: the inside story of Australia's best loved band. (Full article...)
+          </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 bg-info" id="blue">
+          <h3>In the news</h3>
+          <ul>
+            Disputes over a Turkish constitutional referendum trigger a diplomatic incident between Turkey and the Netherlands (protesters pictured).
+            South Korea's Constitutional Court removes President Park Geun-hye from office.
+            Donald Tusk is re-elected as President of the European Council despite opposition from his home country, Poland.
+            Physicists announce the first synthesis of time crystals.
+            An attack on a hospital in Kabul, Afghanistan, kills 49 people and injures more than 60 others.
 
+          </p>
         </div>
       </div>
       <div class="row">
