@@ -1,0 +1,15 @@
+#leftpane {
+  float: left;
+  width: 10%;
+}
+
+#leftpane ul {
+  list-style-type: none;
+}
+
+#leftpane img {
+  width: 100%;
+}
+.right-float {
+  float:right;
+}
